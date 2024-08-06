@@ -1,0 +1,14 @@
+[package]
+name = "ArlyaOS"
+version = "0.1.0"
+edition = "2018"
+author = ["Andra <andra7989@gmail.com>"]
+
+[dependencies]
+bootloader = "0.11.7"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
